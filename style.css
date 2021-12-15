@@ -1,0 +1,154 @@
+*, 
+html, 
+body {
+    /* border: 1px solid red; */
+    /* CUSTOM COLORS */
+    --beef-red: rgb(168, 0, 0);
+    --beef-red-2: rgb(112, 0, 0);
+    --bud-green: rgb(112, 174, 110);
+    --charcoal: rgb(49, 49, 49);
+    --charcoal-2: #36454F;
+    --dark-liver: rgb(72, 60, 70);
+    --inchworm: rgb(190, 238, 98);
+    --ming: rgb(60, 110, 113);
+    --orange-crayola: rgb(244, 116, 59);
+    --orange-burnt: rgb(179, 82, 44);
+    --orange-burnt-2: #833C20;
+    --shadow-color: rgba(42, 42, 42, 0.6);
+    --shadow-b-color: rgba(21, 21, 21, 0.8);
+    --lettuce: #CDE6A5;
+    --avocado: #568203;
+    --avocado2: #5e8f05;
+    --pink-frosting: #db7179;
+    --pink-frosting-2: #9c4d55;
+    --index-card-bg: #f3ddbd;
+    --index-card-bg-2: #a59276;
+    --ocean: #006994;
+    --ocean-2: #004d6b;
+    --ocean-3: #0092cc;
+    --bread: #eee1cf;
+    --bread-2: #a38047;
+    --soup: #F0CA28;
+    --soup-2: #a78d1b;
+    --grape: rgb(187, 125, 231);
+    --grape2: rgb(223, 191, 245);
+    --salmon: rgb(253, 146, 134);
+    --hilighter: rgb(255, 255, 0);
+    --link-hover-color: rgb(255, 68, 0);
+    /*  END CUSTOM COLORS */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+body {
+    /* background-color: var(--avocado); */
+    background-color: rgb(152, 194, 194);
+    padding: 35px;
+}
+
+.resume-body {
+    background-color: white;
+}
+
+/* Up Button */
+#upBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px;
+    right: 30px;
+    z-index: 10;
+    border: 3px solid whitesmoke;
+    outline: none;
+    background-color: var(--beef-red);
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 0.15ch;
+}
+
+#upBtn:hover {
+    background-color: black;
+}
+
+#upBtn:active {
+    background-color: white;
+    color: black;
+    border-color: var(--hilighter);
+}
+/* END UP BUTTON */
+
+h1 {
+    font-family: "Righteous";
+    font-size: 72px;
+    letter-spacing: 0.15ch;
+    color: var(--charcoal);
+}
+
+h2 {
+    font-family: "Heebo";
+    font-size: 30px;
+    letter-spacing: 0.125ch;
+    margin: 15px;
+}
+
+h2:hover {
+    cursor: pointer;
+    color: var(--ocean-3)
+}
+
+li {
+    font-family: "Spectral";
+    font-size: 20px;
+    letter-spacing: ;
+    margin: 10px 30px;
+}
+
+code {
+    background-color: lightgray;
+    border-radius: 2px;
+    padding: 3px 5px;
+    color: black;
+    font-size: 18px;;
+}
+
+header {
+    padding: 15px;
+}
+
+.mini-header {
+    font-weight: 700;
+}
+
+.dropdown {
+    background-color: rgb(230, 230, 230);
+    /* background-color: white; */
+    padding: 15px 30px;
+}
+
+blockquote {
+    font-family: "Coda";
+    letter-spacing: 0.2ch;
+    /* color: var(--charcoal-2); */
+    color: var(--orange-burnt-2);
+    font-size: 22px;
+    font-weight: ;
+    padding: 30px 15px;;
+}
+
+.edu, 
+.skills,
+.experience,
+.work-history {
+    /* background-color: white; */
+    background-color: rgb(230, 230, 230);
+    padding: 15px 30px;
+    margin: 5px 0;
+}
+
+.dropdown {
+    display: none;
+}
