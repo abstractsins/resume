@@ -97,7 +97,7 @@ h2:hover {
 body {
     /* background-color: var(--avocado); */
     background-color: rgb(152, 194, 194);
-    padding: 0px 100px;
+    padding: 35px 100px;
 }
 
 header {
@@ -116,7 +116,7 @@ code {
     border-radius: 2px;
     padding: 3px 5px;
     color: black;
-    font-size: 18px;;
+    font-size: 18px;
 }
 
 blockquote {
@@ -126,7 +126,7 @@ blockquote {
     color: var(--orange-burnt-2);
     font-size: 22px;
     font-weight: ;
-    padding: 30px 15px;;
+    padding: 30px 15px;
 }
 /* END ELEMENTS */
 
@@ -136,7 +136,7 @@ blockquote {
 
 .resume-body {
     background-color: white;
-    margin: 0 75px;
+    margin: 0 75px 0 15px;
 }
 
 .edu, 
@@ -155,3 +155,124 @@ blockquote {
     padding: 15px 30px;
     display: none;
 }
+
+/* MEDIA QUERIES */
+
+/* 1060px wide */
+@media screen and (max-width: 1060px)  {
+
+    h1 {
+        font-size: 64px;
+    }
+
+    h2 {
+        font-size: 24px
+    }
+
+    li {
+        font-size: 18px;
+    }
+
+    code {
+        font-size: 16px;
+    }
+
+    blockquote {
+        font-size: 18px;
+    }
+
+    #upBtn {
+        font-size: 16px;
+    }
+
+}
+/* END 1060px WIDE */
+
+/* 840px wide */
+@media screen and (max-width: 840px)  {
+
+    h1 {
+        font-size: 52px;
+    }
+
+    h2 {
+        font-size: 21px
+    }
+
+    li {
+        font-size: 16px;
+ 
+    }
+
+    code {
+        font-size: 14px;
+    }
+
+    blockquote {
+        font-size: 16px;
+    }
+
+    #upBtn {
+        font-size: 14px;
+    }
+
+    ul {
+        margin: 5px 0;
+    }
+
+    .resume-body {
+        margin: 0;
+    }
+
+}
+/* END 840px WIDE */
+
+/* 670px wide */
+@media screen and (max-width: 670px)  {
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 16px
+    }
+
+    li {
+        font-size: 12px;
+        margin: 10px;
+        padding: 0;
+    }
+
+    code {
+        font-size: 10px;
+    }
+
+    blockquote {
+        font-size: 12px;
+    }
+
+    #upBtn {
+        font-size: 10px;
+    }
+
+
+}
+/* END 670px WIDE */
+
+/* 540px wide */
+@media screen and (max-width: 540px)  {
+
+    h2 {
+        letter-spacing: 0;;
+    }
+
+    li {
+        margin: 0 10px;
+    }
+
+}
+/* END 540px WIDE */
+
+
+/* END MEDIA QUERIES */
