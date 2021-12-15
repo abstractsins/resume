@@ -1,4 +1,3 @@
-
 /* 0 -- Up Button */
 /* Function for Up-Button */
 const upBtn = document.getElementById('upBtn');
@@ -17,7 +16,7 @@ const scrollFunction = () => {
 window.onscroll = () => { scrollFunction() };
 /* END 0 -- Up Button */
 
-/* SECTION REVEAL FUNCTION */
+/* 1 -- SECTION REVEAL FUNCTION */
 const dropdown = id => {
     console.log(id);
     let $section = $(`#${id}`);
@@ -32,7 +31,7 @@ const dropdown = id => {
         $section.removeClass("active");
     }
 }
-/* END SECTION REVEAL FUNCTION */
+/* END 1 -- SECTION REVEAL FUNCTION */
 
 
 /* THIS SPACE INTENTIONALLY LEFT BLANK */
@@ -45,4 +44,3 @@ const dropdown = id => {
 //
 //
 /* OK */
-

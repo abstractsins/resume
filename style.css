@@ -41,15 +41,6 @@ body {
     box-sizing: border-box;
     line-height: 1.5;
 }
-body {
-    /* background-color: var(--avocado); */
-    background-color: rgb(152, 194, 194);
-    padding: 35px;
-}
-
-.resume-body {
-    background-color: white;
-}
 
 /* Up Button */
 #upBtn {
@@ -81,6 +72,7 @@ body {
 }
 /* END UP BUTTON */
 
+/* HEADINGS */
 h1 {
     font-family: "Righteous";
     font-size: 72px;
@@ -99,6 +91,18 @@ h2:hover {
     cursor: pointer;
     color: var(--ocean-3)
 }
+/* END HEADINGS */
+
+/* ELEMENTS */
+body {
+    /* background-color: var(--avocado); */
+    background-color: rgb(152, 194, 194);
+    padding: 0px 100px;
+}
+
+header {
+    padding: 15px;
+}
 
 li {
     font-family: "Spectral";
@@ -115,20 +119,6 @@ code {
     font-size: 18px;;
 }
 
-header {
-    padding: 15px;
-}
-
-.mini-header {
-    font-weight: 700;
-}
-
-.dropdown {
-    background-color: rgb(230, 230, 230);
-    /* background-color: white; */
-    padding: 15px 30px;
-}
-
 blockquote {
     font-family: "Coda";
     letter-spacing: 0.2ch;
@@ -137,6 +127,16 @@ blockquote {
     font-size: 22px;
     font-weight: ;
     padding: 30px 15px;;
+}
+/* END ELEMENTS */
+
+.mini-header {
+    font-weight: 700;
+}
+
+.resume-body {
+    background-color: white;
+    margin: 0 75px;
 }
 
 .edu, 
@@ -150,5 +150,8 @@ blockquote {
 }
 
 .dropdown {
+    background-color: rgb(230, 230, 230);
+    /* background-color: white; */
+    padding: 15px 30px;
     display: none;
 }
