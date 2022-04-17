@@ -160,6 +160,12 @@ blockquote {
     font-weight: ;
     padding: 30px 15px 0 15px;
 }
+aside.api-caption {
+    color: whitesmoke;
+    font-size: 10pt;
+    font-family: "Spectral", serif;
+    padding-top: 10px;
+}
 /* END ELEMENTS */
 
 .mini-header {
@@ -196,6 +202,56 @@ blockquote {
 .job-time {
     font-style: italic;
 }
+
+.api {
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #36454F;
+    display: grid;
+    gap: 15px;
+    grid-template-rows: repeat(3, 1fr);
+    width: fit-content;
+}
+.api-block {
+    border-radius: 15px;
+
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.one {
+    background-color: whitesmoke;
+    grid-column: 1;
+    grid-row: 1;
+}
+.two {
+    background-color: whitesmoke;
+    grid-column: 2;
+    grid-row: 1;
+}
+.three {
+    background-color: lightblue;
+    grid-column: 1;
+    grid-row: 2;
+}
+.four {
+    background-color: lightblue;
+    grid-column: 2;
+    grid-row: 2;
+}
+.five {
+    background-color: #778e9d;
+    grid-column: 1 / 3;
+    grid-row: 3;
+    color:white;
+}
+
+.api-header {
+    font-size: 1em;
+    font-family: "Heebo";
+    padding-right: 15px;
+}
+
 
 /* MEDIA QUERIES */
 
