@@ -40,7 +40,13 @@ const codewarsData = fetch(url).then(res=>res.json()).then(obj=>{
     $('#rank').append(obj.ranks.overall.name);
     $('#score').append(obj.ranks.overall.score);
     $('#completed').append(obj.codeChallenges.totalCompleted);
-    $('.five').append(Object.keys(obj.ranks.languages).join(', '));
+    $('.five').append(Object.keys(obj.ranks.languages).map(lang=>{
+        if (lang==='javascript') return 'JavaScript';
+        if (lang==='typescript') return 'TypeScript';
+        if (lang==='sql') return 'SQL';
+        if (lang==='powershell') return 'PowerShell';
+        if (lang==='shell') return 'Bash Shell';
+    }).join(', '));
     return obj;
 }).catch(err=>{console.error('Something went wrong getting the information!');console.error(err)})
 
