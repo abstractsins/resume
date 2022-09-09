@@ -46,9 +46,13 @@ const codewarsData = fetch(url).then(res=>res.json()).then(obj=>{
         if (lang==='sql') return 'SQL';
         if (lang==='powershell') return 'PowerShell';
         if (lang==='shell') return 'Bash Shell';
+        if (lang==='kotlin') return 'Kotlin';
     }).join(', '));
     return obj;
-}).catch(err=>{console.error('Something went wrong getting the information!');console.error(err)})
+}).catch(err=>{
+    console.error('Something went wrong getting the information!');
+    console.error(err)
+})
 
 
 
