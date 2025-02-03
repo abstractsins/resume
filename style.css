@@ -81,17 +81,21 @@ h1 {
     font-family: "Righteous";
     font-size: 72px;
     letter-spacing: 0.15ch;
-    color: var(--charcoal);
 }
 
 h2 {
+    font-family: "Heebo";
+    color: var(--charcoal);
+}
+
+h3 {
     font-family: "Heebo";
     font-size: 30px;
     letter-spacing: 0.125ch;
     margin: 10px;
 }
 
-h2:hover {
+h3:hover {
     cursor: pointer;
     color: var(--ocean-3)
 }
@@ -105,7 +109,12 @@ body {
 }
 
 header {
-    margin: 15px;
+    margin: 0 15px;
+}
+
+subheader {
+    display: flex;
+    margin: 0 15px;
 }
 
 .download {
@@ -262,7 +271,7 @@ aside.api-caption {
         font-size: 64px;
     }
 
-    h2 {
+    h3 {
         font-size: 24px
     }
 
@@ -292,7 +301,7 @@ aside.api-caption {
         font-size: 52px;
     }
 
-    h2 {
+    h3 {
         font-size: 21px
     }
 
@@ -331,7 +340,7 @@ aside.api-caption {
         font-size: 40px;
     }
 
-    h2 {
+    h3 {
         font-size: 16px
     }
 
@@ -364,7 +373,7 @@ aside.api-caption {
         padding: 0 20px;
     }
 
-    h2 {
+    h3 {
         letter-spacing: 0;;
     }
 
